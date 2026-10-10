@@ -1,5 +1,4 @@
-[First-Pages-README (1).md](https://github.com/user-attachments/files/33272673/First-Pages-README.1.md)
-# first-pages-ecommerce# First Pages — Personalized Children's Books
+# First Pages — Personalized Children's Books
 
 **Live website:** https://firstpages.store/  
 **Portfolio:** https://brendanmmcnamara.com/
