@@ -62,13 +62,22 @@ AI assistance supported drafting, layout exploration, analysis, and iteration. D
 
 This repository documents design decisions and selected implementation work. It is **not** a full WordPress backup or a complete export of plugins and theme files.
 
-## Outcomes and evidence
+## Screenshot-based UX review
 
-The strongest evidence to add next would be before-and-after screenshots, annotated user flows, mobile screens, and checkout examples. No verified conversion-rate uplift or usability-test metrics are reported here.
+Three supplied interface captures support a [documented heuristic UX review](docs/ux-audit.md) covering mobile hero legibility, floating chat overlap, checkout structure, pricing transparency, payment layout, and the personalization journey. The review explicitly distinguishes an **earlier checkout preview** from a separate checkout-detail capture; the images do not establish verified before-and-after results.
+
+### Priority findings
+
+- **Mobile legibility:** The homepage headline breaks inside words at the captured viewport.
+- **Content obstruction:** The support widget overlays hero copy and competes with the main CTA.
+- **Checkout journey:** The earlier concept displays clear steps for adding a book, providing details/photos, and reviewing payment.
+- **Purchase confidence:** Itemized costs, shipping, and payment methods are visible in the checkout detail capture.
+
+No verified conversion-rate uplift or usability-test metrics are reported here.
 
 ## Planned case-study assets
 
-- Homepage, product page, and checkout screenshots
+- Privacy-reviewed homepage, product page, and checkout screenshots
 - Annotated checkout/customer journey flow
 - Responsive design examples
 - Before/after content and hierarchy comparisons
