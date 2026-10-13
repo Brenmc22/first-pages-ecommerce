@@ -1,0 +1,40 @@
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-config-*.php
+*.pem
+*.key
+
+# Sensitive exports and backups
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.backup
+
+# User content and generated WordPress data
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+
+# Dependency and build artifacts
+node_modules/
+vendor/
+dist/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+debug.log
